@@ -8,11 +8,12 @@ const App = () => {
 
   const exchangeRates = {
     USD: 1,
-    EUR: 0.85,
-    GBP: 0.73,
-    JPY: 112.14,
-    INR: 74.98,
-    AUD: 1.31,
+    EUR: 0.95,
+    GBP: 0.82,
+    JPY: 149.58,
+    INR: 83.27,
+    AUD: 1.59,
+    PKR: 277.45,
   };
   const handleAmountChange = (event) => {
     setAmount(event.target.value);
